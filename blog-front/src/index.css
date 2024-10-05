@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  @apply bg-[#0D0D0D];
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+.auth-input {
+  @apply rounded-xl border-2 text-[#878787] border-[#312E2E] px-3 md:px-4 py-4 md:py-6 bg-transparent outline-[#312E2E];
+}
